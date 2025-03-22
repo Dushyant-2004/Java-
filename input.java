@@ -16,5 +16,4 @@ public class input {
       sc.close();
    }
 
-    
 }
