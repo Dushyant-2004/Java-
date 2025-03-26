@@ -14,7 +14,13 @@ public class OOPS2 {
         System.err.println(s1.age);
         System.err.println(s1.rollno);
         System.err.println("Hello");
+        
+        books b2 = new books("Python", 600, 2000);
+        System.err.println(b2.name);        
+        System.err.println(b2.price);
+        System.err.println(b2.pages);
     }
+    
 }
 
 class Student{
@@ -42,3 +48,14 @@ class books{
     }
 }
 
+class books2{
+    String name;
+    int price;
+    int pages;
+
+    books2(String name, int price, int pages){
+        this.name = name;
+        this.price = price;
+        this.pages = pages;
+    }
+}
