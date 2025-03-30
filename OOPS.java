@@ -23,8 +23,3 @@ class Pen {
     }
 }
 
-class Student {
-    String name;
-    int age;
-    Pen pen;
-}
