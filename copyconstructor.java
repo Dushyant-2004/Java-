@@ -34,3 +34,26 @@ public class copyconstructor {
         s2.display();
     }
 }
+
+class vehicle{
+    String name;
+    int year;
+
+    // No-argument constructor
+    vehicle() {
+        // Initialize default values
+        this.name = "";
+        this.year = 0;
+    }
+
+    // Copy Constructor (takes an object of the same class as a parameter)
+    vehicle(vehicle v) {
+        this.name = v.name;
+        this.year = v.year;
+    }
+
+    // Method to display vehicle details
+    void display() {
+        System.out.println("Name: " + name + ", Year: " + year);
+    }
+}
